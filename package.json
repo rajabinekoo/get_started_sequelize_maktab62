@@ -1,0 +1,21 @@
+{
+  "name": "getstartedwithsequelize",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "migrate": "node ./database/migrate.js",
+    "debug": "DEBUG=getstartedwithsequelize:* node ./bin/www",
+    "dev": "DEBUG=getstartedwithsequelize:* nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "mariadb": "^2.5.5",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.13.0",
+    "validator": "^13.7.0"
+  }
+}
